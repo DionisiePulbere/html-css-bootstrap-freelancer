@@ -6,6 +6,14 @@
     background-color: #1ABC9C;
 }
 
-.ms-btn{
-    border: 1px solid white;
+.ms-bg-footer{
+    background-color: #3A546C;
+}
+
+.ms-text-green{
+    color: #1ABC9C;
+}
+
+.ms-bg-rgba{
+    background-color: rgba(0, 0, 0, 0.2);
 }
