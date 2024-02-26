@@ -17,3 +17,54 @@
 .ms-bg-rgba{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.ms-line{
+    border-top: 2px solid;
+    width: 100px;
+}
+
+.ms-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ms-border-b{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+a{
+    color: white;
+    font-size: 16px;
+}
+
+.appear{
+    z-index: -1;
+}
+
+.box:hover .appear{
+    z-index: 2;
+    font-size: 80px;
+}
+
+.box:hover{
+    opacity: 60%;
+}
+
+#about button:hover{
+    background-color: white;
+    color: black !important;
+}
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+}
+
+#contact button:hover{
+    background-color: white;
+    color: black !important;
+    border: 1px solid #1ABC9C;
+}
